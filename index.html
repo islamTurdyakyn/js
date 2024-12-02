@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Weather </h1>
+      <div class="tabs">
+        <button id="today-tab" class="active">Today</button>
+        <button id="forecast-tab">5-day Forecast</button>
+      </div>
+    </header>
+
+    <main>
+      
+      <section id="today" class="tab-content active">
+        <div class="current-weather">
+          <h2>Current Weather</h2>
+          <div id="current-summary">
+           
+          </div>
+        </div>
+        <div class="details">
+          <h2>Details</h2>
+          <div id="detailed-info">
+           
+          </div>
+        </div>
+        <div class="popular-cities">
+          <h2>Popular Cities</h2>
+          <div id="cities">
+           
+          </div>
+        </div>
+      </section>
+
+     
+      <section id="forecast" class="tab-content">
+        <div id="forecast-summary">
+          
+        </div>
+        <div id="forecast-details">
+         
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Weather data provided by <a href="https://openweathermap.org" target="_blank">OpenWeather</a></p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

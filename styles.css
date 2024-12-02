@@ -1,0 +1,46 @@
+body {
+    font-family:  Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: blanchedalmond;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.tabs {
+    margin: 10px 0;
+    display: flex;
+    justify-content:center: 
+}
+.tabs button {
+    padding: 10px 20px;
+    border:none;
+    background:white;
+    cursor: pointer;
+    transition: backgraund 0.3s;
+}
+.tabs button.active {
+    background: blue;
+    color: white;
+}
+main{
+    padding: 20px;
+}
+.tab-content-active {
+    display: block;
+}
+.popular-cities,.detalis,.current-weather
+{
+    margin-bottom: 20px;
+}
+#forecast-summary {
+    display: flex;
+    gap:10px;
+}
+#forecats-summary .day-card {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
